@@ -7,7 +7,7 @@ class Manifolds < Formula
   license "MIT"
 
   def install
-    system "gem", "install", "manifolds-0.1.0.gem"
+    system "gem", "install", "manifolds-0.0.1.gem"
     bin.install "exe/manifolds"
   end
 
